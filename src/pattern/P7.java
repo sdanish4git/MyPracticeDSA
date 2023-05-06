@@ -15,11 +15,11 @@ Mirrored Right Pascal’s Triangle
 public class P7 {
 
     public static void main(String[] args) {
-        int n=5;
+        int n=10;
         printMirroredRightPascalTriangle(n);
     }
     public static void printMirroredRightPascalTriangle(int n){
-        int nsp=4;
+        int nsp=n-1;
         int nst=1;
         for(int i=0;i<n*2-1;i++){
             PatternUtil.printSpace(nsp);
